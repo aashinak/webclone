@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* first page background */
 .container{
     background-image: url(./images/bg-img.png);
@@ -13,4 +15,32 @@
     background-repeat: no-repeat;
     background-position: 0px -109px;;
     background-size: cover;
+}
+
+
+
+/* text box in first page */
+/* text want to be found and updated */
+.text-box{
+    width: 634px;
+    margin-left: 121px;
+    margin-top: 380px;
+     
+}
+.text-box p{
+    line-height:18.4px;
+    font-size: 16px;
+}
+.text-box h1{
+    font-size:48px;
+    line-height:57.6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing:0.8px;
+}
+.text-box h2{
+    font-size:18px;
+    line-height:27px;
+    font-weight: lighter;
+    letter-spacing:0.8px;
 }
