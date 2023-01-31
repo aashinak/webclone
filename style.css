@@ -18,13 +18,60 @@
 }
 
 
+/* slogan section */
+.upper-div{
+    width: 1329px;
+    height: 70px;
+    margin: auto;
+    background-color: transparent;
+}
+
+
+/* navbar section */
+.nav-bar{
+    width: 1329px;
+    height: 108px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 100%);
+    margin: auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px;
+}
+
+.first img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.first p{
+    margin-left: 40px;
+}
+.first{
+    display: flex;
+}
+.third{
+    display: flex;
+}
+.third p{
+    margin-left: 40px;
+}
+.logo img{
+    width: 56px;
+    height: 59px;
+}
+
+
 
 /* text box in first page */
 /* text want to be found and updated */
 .text-box{
     width: 634px;
     margin-left: 121px;
-    margin-top: 380px;
+    margin-top: 210px;
      
 }
 .text-box p{
@@ -43,4 +90,24 @@
     line-height:27px;
     font-weight: lighter;
     letter-spacing:0.8px;
+}
+
+
+
+.btn{
+    width: 189px;
+    height: 60px;
+    background: rgb(226,50,50);
+    background: linear-gradient(180deg, rgba(226,50,50,1) 0%, rgba(255,0,0,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 130px;
+    margin-top: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.btn a{
+    color: white;
+    text-decoration: none;
 }
