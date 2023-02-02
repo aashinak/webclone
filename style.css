@@ -175,12 +175,15 @@
     padding-top: 10px;
 }
 .second_container .first-div p {
-    color: gray;
+    color: rgb(24, 20, 20);
     padding-top: 20px;
     padding-bottom: 20px;
+    line-height: 25px;
 }
 .second_container .first-div a {
     color: red;
+    text-decoration: none;
+    font-size: small;
 }
 .second_container .image1 {
     display: block;
