@@ -157,37 +157,63 @@
     margin-top: 30px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+
+/* second section */
 .second_container {
-    margin: 140px auto 10px auto;
-    padding-left: 70px;
-    width: 1300px;
+    margin: 58px auto 10px auto;
+    /* padding-left: 70px; */
+    width: 1331.2px;
     height: 300px;
     display: flex;
     justify-content: space-between;
-    box-shadow: 1px 0px 1px 1px rgba(0,0,0,0.25), 1px 0px 1px 1px rgba(0,0,0,0.22);
+    align-items: center;
+    /* box-shadow: 1px 0px 1px 1px rgba(0,0,0,0.25), 1px 0px 1px 1px rgba(0,0,0,0.22); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.first-div{
+    padding: 32px 33px 32px 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-right: 33px; */
+    width: 100%;
+}
+.second_container .image1{
+    height: 100%;
+}
+
 .second_container .first-div h5 {
     color: gray;
     padding-top: 10px;
+    font-size: 14px;
+    line-height: 16.1px;
+    letter-spacing: 1px;
+    font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
 }
 .second_container .first-div h3 {
     padding-top: 10px;
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: 0.8px;
+    font-weight: 700;
 }
 .second_container .first-div p {
     color: rgb(24, 20, 20);
     padding-top: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
 }
 .second_container .first-div a {
     color: red;
     text-decoration: none;
     font-size: small;
+    padding-top: 20px;
 }
-.second_container .image1 {
-    display: block;
-    object-fit: cover;
-}
+
 .parent_container {
     display: flex;
     flex-direction: column;
@@ -195,27 +221,39 @@
     justify-content: center;
 }
 .third_container {
-    margin: 50px auto 10px auto;
-    padding-left: 70px;
-    width: 1300px;
+    margin: 50px auto 58px auto;
+    /* padding-left: 70px; */
+    width: 1331.2px;
     height: 300px;
     display: flex;
     justify-content: space-between;
-    box-shadow: 1px 0px 1px 1px rgba(0,0,0,0.25), 1px 0px 1px 1px rgba(0,0,0,0.22);
+    /* box-shadow: 1px 0px 1px 1px rgba(0,0,0,0.25), 1px 0px 1px 1px rgba(0,0,0,0.22); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .third_container .first-div h5 {
     color: gray;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    font-size: 14px;
+    line-height: 16.1px;
+    letter-spacing: 1px;
+    font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
 }
 .third_container .first-div h3 {
     padding-top: 10px;
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: 0.8px;
+    font-weight: 700;
 }
 .third_container .first-div p {
     color: rgb(24, 20, 20);
     padding-top: 20px;
     padding-bottom: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
 }
 .third_container .first-div a {
     color: red;
